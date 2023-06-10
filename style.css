@@ -1,0 +1,494 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+    background: #0f0f10;
+    text-decoration: none;
+  }
+
+
+  
+html{
+  font-size: 62.5%;
+}
+
+@media (max-width:1550){
+  html{
+    font-size: 55%;
+  }
+}
+
+@media (max-width:998px){
+  html{
+    font-size: 45%;
+  }
+}
+
+@media (max-width:769px){
+  html{
+    font-size: 35%;
+  }
+}
+
+@media (max-width:648px){
+  html{
+    font-size: 25%;
+  }
+}
+
+@media (max-width:428px){
+  html{
+    font-size: 13.5%;
+    
+  }
+}
+
+@media (max-width:208px){
+  html{
+    font-size: 10%;
+  }
+}
+
+  .container{
+    width: 100vw;
+    /* align-items: center; */
+    width: 80vw;
+    margin-left: 10vw;
+    
+  }
+  .main{
+    display: inline;
+    justify-content: space-between;
+  }
+
+  .main-header{
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.0rem;
+  }
+  .header-image{
+    margin-top: 1.0rem;
+    margin-left: 6.0rem;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .header-button{
+    padding: 1.5rem 5.0rem;
+    background-color: #1E1E21;
+    margin-right: 6.0rem;
+    /* border: 1 solid white; */
+  }
+
+  .header-list{
+    margin-left: 10.5rem;
+    /* background-color: #ffffff; */
+    text-decoration: none;
+  }
+
+  .header-list ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+   
+
+  }
+
+  li{
+    margin: 1.5rem;
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .main-body{
+    display: flex;
+    /* justify-content: space-between; */
+    margin-left:10vw ;
+    margin-top: 4.0rem;
+  }
+
+  .main-image{
+    height: 50.0rem;
+    width: 23.0rem;
+    margin-top: -24.0rem;
+  }
+
+  .main-right-section{
+    margin-left: 8vw;
+    width: 40.0rem;
+  }
+
+  .main-text{
+    margin-top: 2.5rem;
+    font-size: 4.0rem;
+  }
+
+  .main-text-2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2.5rem;
+
+  }
+
+  .main-text-3{
+    margin-top: 2.5rem;
+    font-size: 1.3rem;
+    color: rgba(255, 255, 255, 0.728);
+    font-weight: 100;
+    line-height: 2.5rem;
+
+  }
+  .main-right-section-image{
+    margin-left:3vw ;
+    height: 7.0rem;
+  }
+  .main-shopping-area{
+    background-color:#1E1E21 ;
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: space-around;
+    width: 20rem;
+    padding: 1.0rem;
+    border-radius: 1.0rem;
+    text-align: center;
+  
+
+   
+
+  }
+
+  .main-shopping-text{
+    font-weight: 100;
+    font-size: 1.5rem;
+    background: none;
+  }
+
+  .main-shopping-price{
+    font-weight: 550;
+    margin-top:0.3rem ;
+    background: none;
+    font-size: 1.25rem;
+  }
+
+  .shopping-bag{
+    background: none;
+    height: 1.8rem;
+    width: 1.8rem;
+    
+  }
+  .main-footer{
+    width: 60vw;
+    display: flex;
+    justify-content: space-around;
+    margin: 15.0rem 15.0rem 0 15.0rem;
+
+  }
+  .main-footer-image{
+    width: 8.0rem;
+  
+  }
+  .specifications{
+    /* background-color: beige; */
+    margin: 15.0rem 15.0rem;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    /* width: 80vw; */
+  }
+  .specs-logo{
+    margin-left: 25vw;
+
+  }
+.specifications-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 2.5rem;
+}
+
+.specifications-feature{
+  margin-right: 8.0rem;
+
+}
+.feature{
+  margin-top: 3.0rem;
+  width: 9.0rem;
+}
+
+.feature-tilte{
+  font-size: 1.5rem;
+  margin-top: .5rem;
+
+}
+.feature-desc{
+  font-size: 1.0rem;
+  color: #ffffffab;
+
+}
+
+
+.mic{
+  margin-left: 4.5rem;
+}
+
+.bluetooth{
+  margin-left: 4.5rem;
+}
+.specification-image{
+  margin-top: 5.0rem;
+  height: 30.0rem;
+}
+
+.case{
+  margin-top: 10.0rem;
+  margin: 15.0rem 15.0rem 0 15.0rem;
+
+}
+.case-section-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 10.0rem;
+}
+.case-logo{
+  margin-left: 25vw;
+}
+.case-image{
+  height: 30.0rem;
+  width: 23.0rem;
+  margin-right: 10.0rem;
+}
+
+.case-section-container-contain{
+  justify-content: center;
+  width: 20.0rem;
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.728);
+  line-height: 2.5rem;
+  margin-top: 6.0rem;
+}
+
+.case-info-section{
+  background-color:#1E1E21 ;
+  margin-top: 2.5rem;
+  display: flex;
+  justify-content: space-around;
+  width: 15.0rem;
+  padding: 1.0rem;
+  border-radius: 10.rem;
+  align-items: center;
+
+}
+
+.info-logo{
+  background: none;
+  width: 1.8rem;
+  height: 1.8rem;
+
+}
+.more-info{
+  background: none;
+  font-size: 1.5rem;
+
+}
+
+.shopping{
+  background-color: #181A1B;
+  margin-top: 10.0rem;
+  /* margin: 150rem 100rem 0 100rem; */
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shopping-headphone-image{
+  background: none;
+  margin-left: 10.0rem;
+  margin-top: 5.0rem;
+  margin-bottom: 5.0rem;
+  width: 50rem;
+}
+
+.shopping-text-section{
+  width: 30.0rem;
+  background: none;
+
+}
+
+.shopping-main-text{
+  font-size: 2.0rem;
+  font-weight: 600;
+  background: none;
+}
+.shopping-secondary-text{
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.728);
+  line-height: 5.0rem;
+
+}
+
+.buy-now-button{
+  width: 16.0rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.5rem 2.0rem;
+  border-radius: 1.0rem;
+}
+.choose-your-style-section{
+  margin-top: 10.0rem;
+}
+
+.choose-your-style-section-image-container{
+  display: flex;
+  justify-content: space-around;
+   width: 60vw;
+  margin-left: 10vw;
+  margin-top: 10.0rem;
+}
+.choose-your-style-image{
+margin-left: 30vw;
+width: 25.0rem;
+margin-top: 10.0rem;
+}
+
+.items-container-section{
+  margin-top: 10.0rem;
+  width: 15.0rem;
+  height: 15.0rem;
+  /* margin-left: 20rem; */
+  margin: 3.0rem;
+  background-color: #181A1B;
+  border-radius: 1.0rem;
+  align-items: center;
+  justify-content: center;
+
+}
+.headphone-images{
+  width: 8.0rem;
+  height: 10.0rem;
+  margin-top: -4.0rem ;
+  margin-left: 2.5rem;
+  background: none;
+  
+}
+.items-component-container-section{
+  margin-top: 2.0rem;
+  display: flex;
+  justify-content: space-around;
+  background: none;
+}
+.item-container-section-contain-logo{
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-top: 3.0rem;
+  margin-right: 2.0rem;
+  background: none;
+}
+
+.item-container-section-contain-text{
+  width: 2.0rem;
+  height: 2.0rem;
+  margin-top: 1.5rem;
+  margin-left: 1.0rem;
+  width:10.0rem ;
+  line-height: 2.0rem;
+  background: none;
+ 
+}
+
+.item-container-section-contain-text-p{
+  font-size: 1.6rem;
+  background: none;
+
+}
+
+.item-container-section-contain-text-span{
+  background: none;
+  font-size: 1.4rem;
+  color:#ffffffab ;
+}
+
+.footer{
+  margin: 10.0rem 0 10.0rem 0;
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.footer-main-text{
+  font-size: 2.0rem;
+  font-weight: 100;
+}
+
+.footer-secondary-text{
+  margin-top: 3.0rem;
+  line-height: 3.0rem;
+  font-weight: 100;
+ 
+}
+
+.p-tag{
+  font-weight: 100;
+  color: rgba(248, 248, 248, 0.397);
+}
+
+
+.email{
+  padding: 1.0rem 2.0rem;
+  background-color: #181A1B;
+  border: 0;
+  margin-right: 1.0rem;
+  color: #eaf0f36b;
+  border-top: .1rem solid #eaf0f36b;
+  border-left: .1rem solid #eaf0f36b;
+  border-bottom: .1rem solid #eaf0f36b;
+
+
+}
+
+.email-logo{
+  margin-right: 2.0rem;
+  margin-left: 1.0rem;
+  z-index: 10000;
+  width: 1.4rem;
+}
+.email-button{
+  align-items: center;
+justify-self: center;
+text-align: center;
+  margin-left: -1.5rem;
+  margin-bottom: -2.0rem;
+padding-top: 1.0rem;
+padding-bottom: 1.0rem;
+padding-right: 2.0rem;
+  background-color: black;
+  /* margin-left: 40rem; */
+  border: 0;
+  z-index: -1;
+  border-top: .1rem solid #eaf0f36b;
+  border-right: .1rem solid #eaf0f36b;
+  border-bottom: .1rem solid #eaf0f36b;
+
+}
+
+.social-media-section{
+  margin-top: 2.0rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation-button{
+ height: 6.0rem;
+ width: 6.0rem;
+ border: 0.001rem solid #3D3D42;
+ background-color: #181A1B;
+}
+
+
